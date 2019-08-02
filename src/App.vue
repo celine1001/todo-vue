@@ -23,5 +23,5 @@ export default {
 </script>
 
 <style lang="scss">
-
+    body{background:#f6f6f8;text-align:center;}
 </style>
