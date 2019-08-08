@@ -16,7 +16,7 @@
             addTodo(){
                 if( this.newTodoItem !== '' ){
                     var value = this.newTodoItem && this.newTodoItem.trim();
-                    localStorage.setItem(value,value);
+                    this.$emit('addTodoAdd',value);
                     this.clearInput();
                 }
             },
